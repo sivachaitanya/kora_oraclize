@@ -1,0 +1,42 @@
+{
+  "contract_name": "Storage",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "data",
+          "type": "uint256"
+        }
+      ],
+      "name": "set",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "get",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b60b98061001e6000396000f300606060405263ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166360fe47b1811460465780636d4ce63c14605b575b600080fd5b3415605057600080fd5b6059600435607d565b005b3415606557600080fd5b606b6086565b60405190815260200160405180910390f35b60008190555b50565b6000545b905600a165627a7a72305820044a61afa4aeafbc44a662ba7ee121d8e3d091e5527f7591b5efec2dc61191b10029",
+  "networks": {
+    "456719": {
+      "events": {},
+      "links": {},
+      "address": "0xfdb02f5b400cc2cbf6e50d9eb3e707ad9a44b389",
+      "updated_at": 1513936948445
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1513936948445
+}
